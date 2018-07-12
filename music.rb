@@ -22,6 +22,7 @@ end
 
 def delete_artist(lib, artist)
   lib.delete(artist)
+  lib
 end
   
 
